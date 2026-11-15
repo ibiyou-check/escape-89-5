@@ -11,7 +11,7 @@ window.SITE = {
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd8LifneCuePH0RQ-b3VbSZXaw9vP_o8GLbIx4Unf5hVP90Rg/viewform",
 
   // [임시] 운영 주체
-  host: "서울삼육중학교 시넥",
+  host: "서울삼육중학교 시넥스",
 
   // [임시] 부스 정보 (label: 항목명, value: 내용)
   info: [
