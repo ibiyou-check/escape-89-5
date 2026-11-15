@@ -374,7 +374,7 @@ footer{padding:40px 0 110px;border-top:1px solid var(--line);color:var(--muted);
     <div class="story-grid">
       <div class="paper-stage">
         <div class="paper" data-scroll3d>
-          <div class="ph"><span>2학기 중간고사 · 과학</span><span>3학년 ○반 ○번 · 이름: 나</span></div>
+          <div class="ph"><span>2학기 중간고사 · 과학</span><span>o학년 ○반 ○번 · 이름: 나</span></div>
           <h3>서술형 4번</h3>
           <p class="q">밀폐된 공간에서 일어나는 화학 반응의 증거를 제거하는 방법을 서술하시오. (5점)</p>
           <p class="ans">반응 후 남은 물질을 중화시키고,<br>모든 흔적을 <s>깨끗이</s> 지운다…</p>
@@ -540,7 +540,7 @@ footer{padding:40px 0 110px;border-top:1px solid var(--line);color:var(--muted);
 
   /* ---- tape + ticker text ---- */
   document.querySelectorAll('[data-tape]').forEach(r => { const s = `<span>${r.dataset.tape}</span>`.repeat(6); r.innerHTML = s + s; });
-  const news = ['○○고 과학실서 교사 쓰러진 채 발견','스마트워치 SOS 자동 신고… 경찰 출동','“시험 점수 이의제기 있었다” 학생 증언','과학실 앞 인파 몰려 혼잡','경찰 “15분 내 현장 도착 예정”'];
+  const news = ['서울삼육중학교 과학실서 교사 쓰러진 채 발견','스마트워치 SOS 자동 신고… 경찰 출동','“시험 점수 이의제기 있었다” 학생 증언','과학실 앞 인파 몰려 혼잡','경찰 “15분 내 현장 도착 예정”'];
   const tr = document.getElementById('tickerRun'); const tx = news.map(n=>`<span>${n}</span>`).join(''); tr.innerHTML = tx + tx;
 
   /* ---- hero headline: per-character 3D drop-in ---- */
