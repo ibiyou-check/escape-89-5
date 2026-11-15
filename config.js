@@ -8,25 +8,24 @@ window.SITE = {
   subtitle: "과학실 15분",
 
   // [미정] 구글폼 신청 링크 — 비워두면 "신청 준비 중" 안내가 뜹니다
-  formUrl: "",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd8LifneCuePH0RQ-b3VbSZXaw9vP_o8GLbIx4Unf5hVP90Rg/viewform",
 
   // [임시] 운영 주체
-  host: "○○고등학교 ○○동아리",
+  host: "서울삼육중학교 시넥",
 
   // [임시] 부스 정보 (label: 항목명, value: 내용)
   info: [
-    { label: "일시", value: "축제 1·2일차 10:00 – 16:00" },
-    { label: "장소", value: "본관 3층 과학실" },
-    { label: "인원", value: "회차당 2 – 4명" },
-    { label: "소요 시간", value: "15분 (설명 포함 약 20분)" },
-    { label: "참가비", value: "무료" },
-    { label: "대상", value: "누구나 · 공포 연출 있음" },
+    { label: "일시", value: "2026/11/14 12:35 ~ 15:40" },
+    { label: "장소", value: "1층 과학실" },
+    { label: "인원", value: "3~5명으로 구성된 1팀" },
+    { label: "소요 시간", value: "15분" },
+    { label: "대상", value: "1~3학년 누구나" },
   ],
 
   // [임시] 참가 전 안내
   notice: [
     "예약 시간 5분 전까지 과학실 앞에 도착해 주세요.",
-    "실험 도구는 모두 소품이며 안전합니다. 무리한 힘은 쓰지 마세요.",
-    "어두운 조명과 효과음이 있습니다. 언제든 중단할 수 있어요.",
+    "무리한 힘을 사용하여 소품을 파손할 시 손해 배상을 청구할 수 있습니다",
+    "(선택) 탈출에 실패할 시 수갑으 끼는 벌칙을 받을 수 있습니다",
   ],
 };
